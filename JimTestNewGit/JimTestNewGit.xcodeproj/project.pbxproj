@@ -15,6 +15,7 @@
 		7853A2541CE9B9C500E9F45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7853A2521CE9B9C500E9F45A /* LaunchScreen.storyboard */; };
 		7853A25F1CE9B9C600E9F45A /* JimTestNewGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7853A25E1CE9B9C600E9F45A /* JimTestNewGitTests.m */; };
 		7853A26A1CE9B9C600E9F45A /* JimTestNewGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7853A2691CE9B9C600E9F45A /* JimTestNewGitUITests.m */; };
+		7891585F1CE9BC9000BBA345 /* HLOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 7891585E1CE9BC9000BBA345 /* HLOne.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7853A2651CE9B9C600E9F45A /* JimTestNewGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JimTestNewGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7853A2691CE9B9C600E9F45A /* JimTestNewGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JimTestNewGitUITests.m; sourceTree = "<group>"; };
 		7853A26B1CE9B9C600E9F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7891585D1CE9BC9000BBA345 /* HLOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLOne.h; sourceTree = "<group>"; };
+		7891585E1CE9BC9000BBA345 /* HLOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLOne.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7853A2521CE9B9C500E9F45A /* LaunchScreen.storyboard */,
 				7853A2551CE9B9C500E9F45A /* Info.plist */,
 				7853A2441CE9B9C500E9F45A /* Supporting Files */,
+				7891585D1CE9BC9000BBA345 /* HLOne.h */,
+				7891585E1CE9BC9000BBA345 /* HLOne.m */,
 			);
 			path = JimTestNewGit;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7891585F1CE9BC9000BBA345 /* HLOne.m in Sources */,
 				7853A24C1CE9B9C500E9F45A /* ViewController.m in Sources */,
 				7853A2491CE9B9C500E9F45A /* AppDelegate.m in Sources */,
 				7853A2461CE9B9C500E9F45A /* main.m in Sources */,
@@ -498,6 +504,7 @@
 				7853A2701CE9B9C600E9F45A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7853A2711CE9B9C600E9F45A /* Build configuration list for PBXNativeTarget "JimTestNewGitTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				7853A2731CE9B9C600E9F45A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7853A2741CE9B9C600E9F45A /* Build configuration list for PBXNativeTarget "JimTestNewGitUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				7853A2761CE9B9C600E9F45A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
